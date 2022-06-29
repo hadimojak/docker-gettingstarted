@@ -1,0 +1,1 @@
+docker run -d -p 3000:80 --rm --name myapp -v myapp:/app/feedback -v "F:\Documents\ducker & kubernates\basic2:/app:ro" -v /app/temp -v /app/node_modules myapp:latest
